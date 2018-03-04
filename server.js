@@ -18,6 +18,6 @@ io.on('connection', socket => {
     console.log('user connected: ' + clientuuid);
 });
 
-server.listen(6262, () => {
+server.listen(8000, () => {
     console.log("listening on port 8000");
 })
